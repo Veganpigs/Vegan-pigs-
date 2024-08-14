@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegan Pig - Rock Band</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1b1b1b;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            width: 100%;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            color: #ff007f;
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        section {
+            margin: 40px;
+        }
+
+        .band-members {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 20px;
+        }
+
+        .band-member {
+            background-color: #444;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .band-member h3 {
+            color: #ff007f;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            width: 100%;
+            padding: 20px 0;
+            margin-top: auto;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+
+        audio {
+            margin-top: 20px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vegan Pig</h1>
+    </header>
+
+    <section>
+        <h2>About the Band</h2>
+        <p>Vegan Pig is a rock band with a modern and rebellious sound, blending powerful riffs with meaningful lyrics. Our music is a journey through the raw and unfiltered emotions of life.</p>
+        
+        <div class="band-members">
+            <div class="band-member">
+                <h3>Caleb</h3>
+                <p>Lead Guitar</p>
+            </div>
+            <div class="band-member">
+                <h3>Alex</h3>
+                <p>Bass Guitar</p>
+            </div>
+            <div class="band-member">
+                <h3>Sam</h3>
+                <p>Drums</p>
+            </div>
+        </div>
+
+        <audio controls>
+            <source src="your-song-file.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vegan Pig. All rights reserved.</p>
+    </footer>
+</body>
+</html>
